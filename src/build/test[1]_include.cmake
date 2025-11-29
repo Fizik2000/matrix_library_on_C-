@@ -1,0 +1,5 @@
+if(EXISTS "/home/sirazhudin_ubuntu/projects_s21/CPP1_s21_matrixplus.ID_353533-1/src/build/test[1]_tests.cmake")
+  include("/home/sirazhudin_ubuntu/projects_s21/CPP1_s21_matrixplus.ID_353533-1/src/build/test[1]_tests.cmake")
+else()
+  add_test(test_NOT_BUILT test_NOT_BUILT)
+endif()
